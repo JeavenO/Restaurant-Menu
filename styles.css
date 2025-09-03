@@ -50,8 +50,8 @@ h2 {
 }
 /* Image Styling for Menu Cards */
 .menu-card img {
-  width: 100%;
-  height: auto;
+  width: 30%;
+  height: 100px; /* Adjust this value as needed */
   border-radius: 8px;
   margin-bottom: 10px;
   object-fit: cover;
