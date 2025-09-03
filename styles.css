@@ -48,6 +48,19 @@ h2 {
   border-radius: 8px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+/* Image Styling for Menu Cards */
+.menu-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.menu-card img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
 
 /* Pseudo-class Selector */
 .menu-card:hover {
